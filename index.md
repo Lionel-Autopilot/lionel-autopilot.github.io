@@ -1,15 +1,17 @@
-<!-- Autopilot lionelsalesforce capture code -->
+<!-- Ortto lionelmagentonew capture code -->
 <script>
-	window.ap3c = window.ap3c || {};
-	var ap3c = window.ap3c;
-	ap3c.cmd = ap3c.cmd || [];
-	ap3c.cmd.push(function() {
-		ap3c.init('YdZCe2Iqxt5mB1QubGlvbmVsc2FsZXNmb3JjZQ', 'https://capture-api-master.stgautopilotapp.com/');
-		ap3c.track({v: 0});
-	});
-	var s, t; s = document.createElement('script'); s.type = 'text/javascript'; s.src = "https://static.ap3stg.com/capture/master/capture.js";
-	t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
+    window.ap3c = window.ap3c || {};
+    var ap3c = window.ap3c;
+    ap3c.cmd = ap3c.cmd || [];
+    ap3c.cmd.push(function() {
+        ap3c.init('Ys-VA9vK717ZgX6JbGlvbmVsbWFnZW50b25ldw', 'https://capture-api-master.stgautopilotapp.com/');
+        ap3c.track({v: 0});
+    });
+    ap3c.activity = function(act) { ap3c.act = (ap3c.act || []); ap3c.act.push(act); };
+    var s, t; s = document.createElement('script'); s.type = 'text/javascript'; s.src = "https://static.ap3stg.com/capture/master/capture.js";
+    t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
 </script>
+
 
 
 # Index page with embedded form
